@@ -9,5 +9,6 @@
 int main(void)
 {
 		puts("\"programming is like building a multilingual puzzle");
+		fprintf(stderr, "Anything");
 			return (0);
 }

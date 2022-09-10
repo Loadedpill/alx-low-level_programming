@@ -2,17 +2,16 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * Description: checks on the last digit of the assigned var
+ * Description: prints the alphabet in lowercase\n
  * Return: Always 0 (success)
  **/
 int main(void)
 {
 int ch;
-
-for (ch = 'a' ; ch <= 'Z' ; ch++)
+for (ch = 'a'; ch <= 'z'; ch++)
 {
 putchar(ch);
 }
 putchar('\n');
-return(0);
+return (0);
 }

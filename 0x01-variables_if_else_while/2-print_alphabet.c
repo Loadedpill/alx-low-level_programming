@@ -1,10 +1,15 @@
 #include <stdio.h>
-int main()
+/**
+ * main - Entry point
+ * Description: checks on the last digit of the assigned var
+ * Return: Always 0 (success)
+ **/
+int main(void)
 {
-char ab;
-for(ab = 'a' ; ab <= 'Z' ; ab++)
+char ch;
+for (ch = 'a' ; ch <= 'Z' ; ch++)
 {
-putchar(ab);
+putchar(ch);
 }
 return(0);
 }

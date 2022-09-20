@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * Reset_to_98 - Resets the value of the variable to 98
+ * Reset_to_98 - Resets the value of the variable
  * @n: changing the value of the variable
- * return 0:
+ * Return 0 success
  */
 void reset_to_98(int *n)
 {

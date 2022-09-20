@@ -6,11 +6,6 @@ void reset_to_98(int *n);
  * @n:checked
  * Return: Always 0.
  */
-int main(void)
 {
-int *m;
-m = n;
-*m = 98;
-_putchar(*m);
-	return (0);
+*n = 98;
 }

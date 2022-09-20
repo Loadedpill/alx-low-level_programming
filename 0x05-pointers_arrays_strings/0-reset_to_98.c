@@ -6,7 +6,7 @@ void reset_to_98(int *n);
  * @n:checked
  * Return: Always 0.
  */
-
+int main(void)
 {
 int *m;
 m = n;

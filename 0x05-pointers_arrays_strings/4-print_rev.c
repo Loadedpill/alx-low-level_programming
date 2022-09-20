@@ -1,17 +1,22 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- *  _puts - prints a string in reverse
- *  @str: pointer parameter
- *    */
-void _puts(char *str)
+ * print_rev - This function prints a string in reverse order
+ * @s: pointer parameter
+ */
+void print_rev(char *s)
 {
-int a = 0;
+int i = 0;
 
-while (str[a] != '\0')
+int j;
+while (s[i] != '\0')
 {
-_putchar(str[a]);
-a--;
+i++;
+}
+for (j = i - 1; j >= 0; j--)
+{
+_putchar(s[j]);
 }
 _putchar('\n');
 }

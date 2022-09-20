@@ -7,11 +7,10 @@
  */
 int _strlen(char *s)
 {
-s[7] = "school";
 int length;
 
 length = 0;
-while (s[length] != '\0')
+while (*(s + length) != '\0')
 	length++;
 return(length);
 }

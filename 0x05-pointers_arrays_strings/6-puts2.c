@@ -11,11 +11,11 @@ int a;
 
 a = 0;
 
-while (str[i] != '\0')
+while (str[a] != '\0')
 {
-if (i % 2 == 0)
-_putchar(str[i]);
-i++;
+if (a % 2 == 0)
+_putchar(str[a]);
+a++;
 }
 _putchar('\n');
 }
